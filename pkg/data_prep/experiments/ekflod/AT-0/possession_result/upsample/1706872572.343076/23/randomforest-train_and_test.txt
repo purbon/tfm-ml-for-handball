@@ -1,0 +1,10 @@
+Model randomforest Precision 0.6652242328874901 Recall 0.6829268292682927 F1-score 0.670309326527311 FoldId=0
+Model randomforest Precision 0.6833367493338799 Recall 0.7073170731707317 F1-score 0.6775767112509834 FoldId=1
+Model randomforest Precision 0.739247311827957 Recall 0.75 F1-score 0.7358934169278997 FoldId=2
+Model randomforest Precision 0.6575 Recall 0.675 F1-score 0.6623569794050344 FoldId=3
+Model randomforest Precision 0.6234767025089607 Recall 0.65 F1-score 0.6302507836990595 FoldId=4
+Model randomforest Precision 0.6893416927899686 Recall 0.7 F1-score 0.6928571428571428 FoldId=5
+Model randomforest Precision 0.6234767025089607 Recall 0.65 F1-score 0.6302507836990595 FoldId=6
+Model randomforest Precision 0.709375 Recall 0.725 F1-score 0.7039144471347861 FoldId=7
+Model randomforest Precision 0.7870098039215685 Recall 0.775 F1-score 0.7464624676445211 FoldId=8
+Model randomforest Precision 0.6575 Recall 0.675 F1-score 0.6623569794050344 FoldId=9

@@ -1,0 +1,10 @@
+Model lstm2 Precision 0.0 Recall 0.0 F1-score 0 FoldId=0 Auc=0.4384615421295166
+Model lstm2 Precision 0.0 Recall 0.0 F1-score 0 FoldId=1 Auc=0.3807692527770996
+Model lstm2 Precision 0.0 Recall 0.0 F1-score 0 FoldId=2 Auc=0.5211538672447205
+Model lstm2 Precision 0.0 Recall 0.0 F1-score 0 FoldId=3 Auc=0.4615384638309479
+Model lstm2 Precision 0.0 Recall 0.0 F1-score 0 FoldId=4 Auc=0.3360323905944824
+Model lstm2 Precision 0.3913043439388275 Recall 0.692307710647583 F1-score 0.5000000016096932 FoldId=5 Auc=0.659919023513794
+Model lstm2 Precision 0.0 Recall 0.0 F1-score 0 FoldId=6 Auc=0.4534412920475006
+Model lstm2 Precision 0.0 Recall 0.0 F1-score 0 FoldId=7 Auc=0.5242915153503418
+Model lstm2 Precision 0.4736842215061188 Recall 0.692307710647583 F1-score 0.5625000137952156 FoldId=8 Auc=0.5566802024841309
+Model lstm2 Precision 0.0 Recall 0.0 F1-score 0 FoldId=9 Auc=0.5263158082962036

@@ -1,0 +1,1 @@
+Avg score for 10 folds is f1=0.0, precision=0.0, recall=0.0, auc=0.5056250035762787

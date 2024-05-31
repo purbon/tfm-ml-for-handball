@@ -1,0 +1,1 @@
+{"best_estimator": "KNeighborsClassifier(n_neighbors=15, p=3)", "best_score": 0.7205870751637647, "test_score": 0.60749914000688}

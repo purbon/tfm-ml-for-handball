@@ -1,0 +1,10 @@
+Model hist-lgbm Precision 0.46097560975609764 Recall 0.6585365853658537 F1-score 0.5423242467718795 FoldId=0
+Model hist-lgbm Precision 0.6652242328874901 Recall 0.6829268292682927 F1-score 0.670309326527311 FoldId=1
+Model hist-lgbm Precision 0.4378378378378379 Recall 0.6 F1-score 0.50625 FoldId=2
+Model hist-lgbm Precision 0.42428571428571427 Recall 0.55 F1-score 0.4790322580645162 FoldId=3
+Model hist-lgbm Precision 0.6389705882352941 Recall 0.675 F1-score 0.6337791199309749 FoldId=4
+Model hist-lgbm Precision 0.6766233766233766 Recall 0.7 F1-score 0.67 FoldId=5
+Model hist-lgbm Precision 0.6766233766233766 Recall 0.7 F1-score 0.67 FoldId=6
+Model hist-lgbm Precision 0.6243421052631579 Recall 0.675 F1-score 0.5833333333333334 FoldId=7
+Model hist-lgbm Precision 0.6097402597402597 Recall 0.65 F1-score 0.615 FoldId=8
+Model hist-lgbm Precision 0.42428571428571427 Recall 0.55 F1-score 0.4790322580645162 FoldId=9

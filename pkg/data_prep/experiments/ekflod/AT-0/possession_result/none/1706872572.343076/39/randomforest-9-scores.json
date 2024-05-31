@@ -1,0 +1,1 @@
+{"best_estimator": "RandomForestClassifier(criterion='log_loss', max_depth=6, n_estimators=150)", "best_score": 0.5667315205627295, "test_score": 0.5318181818181819}

@@ -1,0 +1,1 @@
+Avg score for 10 folds is 0.5973291681194134

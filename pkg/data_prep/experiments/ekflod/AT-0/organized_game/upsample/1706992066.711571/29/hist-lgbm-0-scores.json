@@ -1,0 +1,1 @@
+{"best_estimator": "HistGradientBoostingClassifier(learning_rate=0.001)", "best_score": 0.6107739495970227, "test_score": 0.6721354882222167}

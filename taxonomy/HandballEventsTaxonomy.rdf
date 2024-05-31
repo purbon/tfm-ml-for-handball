@@ -1,0 +1,486 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events/"
+     xml:base="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#AfterFoul -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#AfterFoul">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#StaticEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Attack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Attack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Systems"/>
+        <rdfs:comment>offense systems commonly undertood in handball</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#BallOutOfField -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#BallOutOfField">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Referee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#BallPossession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#BallPossession">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#BallRelease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#BallRelease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#IndividualEvent"/>
+        <rdfs:comment>Ball release due to wanted or unwanted situations</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#BlueCard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#BlueCard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Card"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Card -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Card">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Sanction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#ChangeEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#ChangeEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Event"/>
+        <rdfs:comment>An event that changed something in the game</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#CounterAttack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#CounterAttack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Possession"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Defense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Defense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Possession"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Systems"/>
+        <rdfs:comment>Defense structures in handball</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Equal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Equal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Attack"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Event">
+        <rdfs:comment>Tracking of events or situations happening during the game</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Foul -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Foul">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Referee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#FreeThrow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#FreeThrow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#AfterFoul"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#GameEnd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#GameEnd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Referee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#GameStart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#GameStart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#StaticEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Goal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Goal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Referee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#IndividualEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#IndividualEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Event"/>
+        <rdfs:comment>Isolated events in the game related to the ball placement</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Inferiority -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Inferiority">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Attack"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Intentional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Intentional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#BallRelease"/>
+        <rdfs:comment>Intentional ball release for passing or shooting</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Intercepted -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Intercepted">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Unsuccessful"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#LeftWing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#LeftWing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Positions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#OffTarget -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#OffTarget">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Unsuccessful"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Offense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Offense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Possession"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Pass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Pass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Intentional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Penalty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Penalty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#AfterFoul"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Positions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Positions">
+        <rdfs:comment>Indicate action or event possitioning in the field.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Possession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Possession">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#ChangeEvent"/>
+        <rdfs:comment>A change in possession, for example defense or counter attack, etc..</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#RedCard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#RedCard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Card"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Referee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Referee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#ChangeEvent"/>
+        <rdfs:comment>A change by referee decision, such as foul goal or sanction</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#RightWing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#RightWing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Positions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Sanction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Sanction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Referee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#SelfInduced -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#SelfInduced">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Unintentional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Shot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Shot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Intentional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#StaticEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#StaticEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#ChangeEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Successful -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Successful">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Pass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Shot"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#SuccessfulInterference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#SuccessfulInterference">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Unintentional"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Superiority -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Superiority">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Attack"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Systems">
+        <rdfs:comment>Systems commonly understood in handball for offense and defense</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Timeout -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Timeout">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#StaticEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#TwoMin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#TwoMin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Sanction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Unintentional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Unintentional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#BallRelease"/>
+        <rdfs:comment>Unintentional ball release</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Unsuccessful -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Unsuccessful">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Pass"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Shot"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#YellowCard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#YellowCard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Card"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#3_2_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#3_2_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Defense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#3_3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#3_3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Defense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#4_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#4_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Defense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#5_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#5_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Defense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#6_0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#6_0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Defense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#6mCenter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#6mCenter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Positions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#6mLeft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#6mLeft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Positions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#6mRight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#6mRight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Positions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#7m -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#7m">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Positions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#9mCenter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#9mCenter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Positions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#9mLeft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#9mLeft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Positions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#9mRight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#9mRight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/purbon/ontologies/2023/9/handball-events#Positions"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

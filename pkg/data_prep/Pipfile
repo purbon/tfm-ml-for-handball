@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "1.5.3"
+openpyxl = "*"
+#tables = "*"
+h5py = "*"
+matplotlib = "*"
+floodlight = "*"
+scikit-learn = "1.4.0"
+pyclustering = "*"
+#dtaidistance = "2.3.10"
+seaborn = "*"
+Keras = "*"
+keras-tuner = "*"
+tensorflow = "*"
+tqdm = "*"
+scikit-image = "*"
+imbalanced-learn = "*"
+shap = "0.45.0"
+fairlearn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.6"

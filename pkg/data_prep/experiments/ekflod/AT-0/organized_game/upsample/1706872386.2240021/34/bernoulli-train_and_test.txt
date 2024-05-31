@@ -1,0 +1,10 @@
+Model bernoulli Precision 0.17998163452708907 Recall 0.42424242424242425 F1-score 0.2527401676337846 FoldId=0
+Model bernoulli Precision 0.17998163452708907 Recall 0.42424242424242425 F1-score 0.2527401676337846 FoldId=1
+Model bernoulli Precision 0.17998163452708907 Recall 0.42424242424242425 F1-score 0.2527401676337846 FoldId=2
+Model bernoulli Precision 0.6666666666666666 Recall 0.6666666666666666 F1-score 0.649814627569936 FoldId=3
+Model bernoulli Precision 0.19140625 Recall 0.4375 F1-score 0.266304347826087 FoldId=4
+Model bernoulli Precision 0.5432692307692307 Recall 0.5625 F1-score 0.5147727272727273 FoldId=5
+Model bernoulli Precision 0.1650390625 Recall 0.40625 F1-score 0.2347222222222222 FoldId=6
+Model bernoulli Precision 0.1650390625 Recall 0.40625 F1-score 0.2347222222222222 FoldId=7
+Model bernoulli Precision 0.5303571428571429 Recall 0.5625 F1-score 0.5267045454545454 FoldId=8
+Model bernoulli Precision 0.1650390625 Recall 0.40625 F1-score 0.2347222222222222 FoldId=9

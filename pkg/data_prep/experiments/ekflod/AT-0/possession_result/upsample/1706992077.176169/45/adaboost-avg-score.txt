@@ -1,0 +1,1 @@
+Avg score for 9 folds is 0.4882276422488945

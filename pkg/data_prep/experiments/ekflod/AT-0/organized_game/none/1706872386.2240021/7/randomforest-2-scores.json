@@ -1,0 +1,1 @@
+{"best_estimator": "RandomForestClassifier(criterion='entropy', max_depth=6, n_estimators=200)", "best_score": 0.6858029825658873, "test_score": 0.7631975867269986}

@@ -1,0 +1,1 @@
+{"best_estimator": "AdaBoostClassifier(algorithm='SAMME', learning_rate=0.05)", "best_score": 0.6903560184039227, "test_score": 0.5306174089068826}

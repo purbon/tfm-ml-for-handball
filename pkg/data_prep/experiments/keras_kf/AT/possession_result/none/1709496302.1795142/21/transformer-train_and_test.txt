@@ -1,0 +1,9 @@
+Model transformer Precision 0.47058823704719543 Recall 0.380952388048172 F1-score 0.42105263661479686 FoldId=0 Auc=0.5825734734535217
+Model transformer Precision 0.6666666865348816 Recall 0.095238097012043 F1-score 0.1666666700039059 FoldId=1 Auc=0.5213464498519897
+Model transformer Precision 0.27272728085517883 Recall 0.20000000298023224 F1-score 0.23076923566280735 FoldId=2 Auc=0.5166666507720947
+Model transformer Precision 0.0 Recall 0.0 F1-score 0 FoldId=3 Auc=0.5942028760910034
+Model transformer Precision 1.0 Recall 0.2222222238779068 F1-score 0.3636363658530653 FoldId=4 Auc=0.7366666197776794
+Model transformer Precision 0.0 Recall 0.0 F1-score 0 FoldId=5 Auc=0.5625
+Model transformer Precision 0.0 Recall 0.0 F1-score 0 FoldId=6 Auc=0.0902777910232544
+Model transformer Precision 0.0 Recall 0.0 F1-score 0 FoldId=7 Auc=0.7749999761581421
+Model transformer Precision 0.0 Recall 0.0 F1-score 0 FoldId=8 Auc=0.7599999904632568

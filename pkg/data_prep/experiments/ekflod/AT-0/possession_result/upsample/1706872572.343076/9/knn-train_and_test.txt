@@ -1,0 +1,10 @@
+Model knn Precision 0.8044112498541254 Recall 0.7560975609756098 F1-score 0.764329268292683 FoldId=0
+Model knn Precision 0.769576379974326 Recall 0.6829268292682927 F1-score 0.6933353102527986 FoldId=1
+Model knn Precision 0.8265984654731457 Recall 0.8 F1-score 0.8053333333333332 FoldId=2
+Model knn Precision 0.6 Recall 0.575 F1-score 0.5844827586206897 FoldId=3
+Model knn Precision 0.7625 Recall 0.675 F1-score 0.6842857142857143 FoldId=4
+Model knn Precision 0.8265984654731457 Recall 0.8 F1-score 0.8053333333333332 FoldId=5
+Model knn Precision 0.7953125 Recall 0.675 F1-score 0.6817410433689505 FoldId=6
+Model knn Precision 0.7635101010101011 Recall 0.725 F1-score 0.7331468071099407 FoldId=7
+Model knn Precision 0.7781329923273657 Recall 0.75 F1-score 0.7566666666666666 FoldId=8
+Model knn Precision 0.7231829573934837 Recall 0.65 F1-score 0.6607416879795396 FoldId=9

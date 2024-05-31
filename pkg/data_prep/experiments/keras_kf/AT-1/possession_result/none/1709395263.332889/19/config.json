@@ -1,0 +1,1 @@
+{"config": {"id": 19, "timesteps": 40, "batch_size": 64, "epochs": 50, "kfoldstrategy": "group", "n_splits": 9, "do_augment": false, "class_action": "none"}, "extra_params": {"_id": 19, "target_attribute": "possession_result", "phase": "AT", "class_action": "none"}}

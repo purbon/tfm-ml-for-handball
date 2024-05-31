@@ -1,0 +1,9 @@
+.DS_Store
+.idea
+pkg/t/
+pkg/data_prep/dumps/paper.tgz
+pkg/data_prep/dumps/paper/
+adr/
+annotation-guidelines/
+experiments/pos
+memoria/

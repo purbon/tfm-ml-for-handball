@@ -1,0 +1,1 @@
+{"best_estimator": "KNeighborsClassifier(weights='distance')", "best_score": 0.4180344787784591, "test_score": 0.4735042735042735}

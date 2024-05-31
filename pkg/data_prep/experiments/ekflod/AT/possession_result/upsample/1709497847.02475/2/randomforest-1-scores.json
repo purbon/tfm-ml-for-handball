@@ -1,0 +1,1 @@
+{"best_estimator": "RandomForestClassifier(max_depth=3, n_estimators=150)", "best_score": 0.5322488147602864, "test_score": 0.5181771633384537}

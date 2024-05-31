@@ -1,0 +1,31 @@
+{
+  "config": {
+    "id": 1,
+    "include_centroids": false,
+    "include_distance": false,
+    "include_vel": false,
+    "include_acl": false,
+    "include_metadata": false,
+    "include_faults": false,
+    "include_breaks": false,
+    "include_sequences": false,
+    "include_scores": false,
+    "include_prev_possession_results": false,
+    "include_prev_score_diff": false
+  },
+  "extra_params": {
+    "mode": "ls",
+    "_id": 46,
+    "target_attribute": "organized_game",
+    "should_normalize": true,
+    "should_onehotenc": false,
+    "train_test_split_method": "ekflod",
+    "kfold_strategy": "stratified",
+    "n_splits": 10,
+    "phase": "AT",
+    "include_sequence": false,
+    "class_action": "upsample",
+    "lse_size": 128,
+    "timesteps": 30
+  }
+}

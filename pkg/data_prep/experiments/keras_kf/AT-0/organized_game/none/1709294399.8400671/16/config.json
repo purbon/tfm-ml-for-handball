@@ -1,0 +1,1 @@
+{"config": {"id": 16, "timesteps": 20, "batch_size": 64, "epochs": 50, "kfoldstrategy": "group", "n_splits": 9, "do_augment": false}, "extra_params": {"_id": 16, "target_attribute": "organized_game", "phase": "AT"}}

@@ -1,0 +1,10 @@
+Model dense Precision 0.8571428656578064 Recall 1.0 F1-score 0.923076928014586 FoldId=0 Auc=0.9999998807907104
+Model dense Precision 1.0 Recall 1.0 F1-score 1.0 FoldId=1 Auc=0.9999999403953552
+Model dense Precision 1.0 Recall 1.0 F1-score 1.0 FoldId=2 Auc=1.0
+Model dense Precision 0.9230769276618958 Recall 1.0 F1-score 0.9600000024795532 FoldId=3 Auc=0.9842479228973389
+Model dense Precision 1.0 Recall 1.0 F1-score 1.0 FoldId=4 Auc=1.0
+Model dense Precision 0.9230769276618958 Recall 1.0 F1-score 0.9600000024795532 FoldId=5 Auc=1.0
+Model dense Precision 0.9230769276618958 Recall 1.0 F1-score 0.9600000024795532 FoldId=6 Auc=0.9954268336296082
+Model dense Precision 0.9230769276618958 Recall 1.0 F1-score 0.9600000024795532 FoldId=7 Auc=0.994918704032898
+Model dense Precision 0.9090909361839294 Recall 0.8333333134651184 F1-score 0.8695652189687424 FoldId=8 Auc=0.9812499284744263
+Model dense Precision 0.9230769276618958 Recall 1.0 F1-score 0.9600000024795532 FoldId=9 Auc=0.9718750715255737

@@ -1,0 +1,10 @@
+Model adaboost Precision 0.6344964406581864 Recall 0.6097560975609756 F1-score 0.6164514586322334 FoldId=0
+Model adaboost Precision 0.7474372569812655 Recall 0.7317073170731707 F1-score 0.7356893977103036 FoldId=1
+Model adaboost Precision 0.6937321937321939 Recall 0.7 F1-score 0.695054945054945 FoldId=2
+Model adaboost Precision 0.8081841432225065 Recall 0.8 F1-score 0.8020833333333334 FoldId=3
+Model adaboost Precision 0.6912878787878787 Recall 0.675 F1-score 0.6794003868471954 FoldId=4
+Model adaboost Precision 0.6355799373040754 Recall 0.65 F1-score 0.636039886039886 FoldId=5
+Model adaboost Precision 0.6355799373040754 Recall 0.65 F1-score 0.636039886039886 FoldId=6
+Model adaboost Precision 0.7034632034632036 Recall 0.7 F1-score 0.6661442006269592 FoldId=7
+Model adaboost Precision 0.6640625 Recall 0.675 F1-score 0.6454996186117467 FoldId=8
+Model adaboost Precision 0.65 Recall 0.65 F1-score 0.65 FoldId=9

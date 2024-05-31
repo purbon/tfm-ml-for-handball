@@ -1,0 +1,10 @@
+Model lstm Precision 0.25 Recall 0.07692307978868484 F1-score 0.11764706217500162 FoldId=0 Auc=0.35384613275527954
+Model lstm Precision 0.0 Recall 0.0 F1-score 0 FoldId=1 Auc=0.5615385174751282
+Model lstm Precision 0.3333333432674408 Recall 0.1538461595773697 F1-score 0.21052632313686065 FoldId=2 Auc=0.5634615421295166
+Model lstm Precision 0.0 Recall 0.0 F1-score 0 FoldId=3 Auc=0.5115385055541992
+Model lstm Precision 0.0 Recall 0.0 F1-score 0 FoldId=4 Auc=0.4149797856807709
+Model lstm Precision 0.0 Recall 0.0 F1-score 0 FoldId=5 Auc=0.453441321849823
+Model lstm Precision 0.0 Recall 0.0 F1-score 0 FoldId=6 Auc=0.4736842215061188
+Model lstm Precision 1.0 Recall 0.07692307978868484 F1-score 0.14285714779885447 FoldId=7 Auc=0.5141701102256775
+Model lstm Precision 0.0 Recall 0.0 F1-score 0 FoldId=8 Auc=0.5769230723381042
+Model lstm Precision 0.0 Recall 0.0 F1-score 0 FoldId=9 Auc=0.4271255135536194
